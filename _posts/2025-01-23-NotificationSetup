@@ -7,14 +7,13 @@ tags: [notifcations, email, Pushover]
 ## Setting Up Notifications to Pushover Via Email
 
 1. Run commands:
-
-  ```bash
-  sudo apt install -y libsasl2-modules
-  sudo apt install mailutils
-  echo "smtp.gmail.com michelfrancisb@gmail.com:PASSWORD" >> /etc/postfix/sasl_passwd
-  sudo chmod 600 sasl_passwd
-  postmap hash:sasl_passwd
-  ```
+    ```bash
+    sudo apt install -y libsasl2-modules
+    sudo apt install mailutils
+    echo "smtp.gmail.com michelfrancisb@gmail.com:PASSWORD" >> /etc/postfix/sasl_passwd
+    sudo chmod 600 sasl_passwd
+    postmap hash:sasl_passwd
+    ```
 2. Edit /etc/postfix/main.cf
    - Delete lines starting with "relayhost" and "mydestination"
    - Add lines:
