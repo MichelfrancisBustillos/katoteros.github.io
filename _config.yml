@@ -223,3 +223,4 @@ jekyll-archives:
 
 gems:
   - jekyll-tagging-related_posts
+  - "jekyll-github-metadata"
