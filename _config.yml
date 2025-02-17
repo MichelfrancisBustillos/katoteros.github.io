@@ -220,3 +220,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+gems:
+  - jekyll-tagging-related_posts
