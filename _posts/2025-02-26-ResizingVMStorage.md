@@ -2,7 +2,6 @@
 title: Expanding VM Storage
 categories: [Guides]
 tags: [Proxmox, VM, storage]
-description: This guide explains how to resize VM storage efficiently and effectively.
 ---
 
 ## Expanding VM Storage
