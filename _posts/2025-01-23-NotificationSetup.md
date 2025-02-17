@@ -1,7 +1,7 @@
 ---
 title: Notification Setup
 categories: [Configuration]
-tags: [notifications, email, Pushover]
+tags: [notifications, email, pushover]
 ---
 
 ## Setting Up Notifications to Pushover Via Email

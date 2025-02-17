@@ -1,7 +1,7 @@
 ---
 title: Monitoring Diskspace with Uptime Kuma
 categories: [Scripts]
-tags: [Uptime Kuma, monitoring, scripts]
+tags: [uptime kuma, monitoring, scripts]
 ---
 
 ## Monitoring Diskspace with Uptime Kuma

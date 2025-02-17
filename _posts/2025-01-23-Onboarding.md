@@ -1,7 +1,7 @@
 ---
 title: Onboarding a New System
 categories: [Guides]
-tags: [Onboarding, VM, Bare Metal, Setup, Ansible]
+tags: [onboarding, vm, bare metal, setup, ansible]
 ---
 
 ## Onboarding a New System

@@ -1,7 +1,7 @@
 ---
 title: Fix for Ubuntu 24 Noble LXC Container Not Booting
 categories: [Fixes]
-tags: [LXC, fixes, bug, Ubuntu, Proxmox]
+tags: [lxc, fixes, bug, ubuntu, proxmox]
 ---
 
 ## Fix for Ubuntu 24 Noble LXC Container Not Booting

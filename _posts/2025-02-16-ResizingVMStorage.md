@@ -1,7 +1,7 @@
 ---
 title: Expanding VM Storage
 categories: [Guides]
-tags: [Proxmox, VM, storage]
+tags: [proxmox, vm, storage]
 ---
 
 ## Expanding VM Storage

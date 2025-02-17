@@ -1,7 +1,7 @@
 ---
 title: Installing Docker on Ubuntu (The Right Way!)
 categories: [Guides]
-tags: [Docker, Ubuntu, Setup]
+tags: [docker, ubuntu, setup]
 ---
 
 ## Installing Docker on Ubuntu (The Right Way!)

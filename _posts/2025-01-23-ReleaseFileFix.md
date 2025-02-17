@@ -1,7 +1,7 @@
 ---
 title: Fix for apt "no longer has a release file" error
 categories: [Fixes]
-tags: [APT, fixes, bug, Ubuntu]
+tags: [apt, fixes, bug, ubuntu]
 ---
 
 ## Fixing the APT "no longer has a release file" error

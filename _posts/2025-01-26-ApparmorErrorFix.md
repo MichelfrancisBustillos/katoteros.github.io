@@ -1,7 +1,7 @@
 ---
 title: AppArmor Error Fix
 categories: [Fixes]
-tags: [fixes, Ubuntu, AppArmor]
+tags: [fixes, ubuntu, apparmor]
 ---
 
 ## AppArmor Error Fix
