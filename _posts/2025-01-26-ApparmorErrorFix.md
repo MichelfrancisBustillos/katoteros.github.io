@@ -1,14 +1,14 @@
 ---
 title: AppArmor Error Fix
 categories: [Fixes]
-tags: [fixes, ubuntu, apparmor]
+tags: [fixes, Ubuntu, AppArmor]
 ---
 
 ## AppArmor Error Fix
 
 - **Issue**: `apparmor_parser: Access Denied`
   
-  Various errors regarding apparmor, including `access denied` and `You need policy admin privileges to manage profiles.`
+  Various errors regarding AppArmor, including `access denied` and `You need policy admin privileges to manage profiles.`
 
 - **Cause**: Unknown as of 01/26/2025
 

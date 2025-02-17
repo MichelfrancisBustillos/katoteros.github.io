@@ -1,13 +1,13 @@
 ---
 title: Expanding VM Storage
 categories: [Guides]
-tags: [proxmox, VM, storage]
+tags: [Proxmox, VM, storage]
 description: This guide explains how to resize VM storage efficiently and effectively.
 ---
 
 ## Expanding VM Storage
 
-1. From within ProxMox:
+1. From within Proxmox:
    1. **Shut down the VM**.
    2. **Resize the disk** in the VM settings.
    3. **Boot the VM**.
@@ -19,7 +19,7 @@ description: This guide explains how to resize VM storage efficiently and effect
        ```
        If not, rescan the disk:
        ```bash
-       echo 1>/sys/class/block/sda/device/rescan # Replace 'sda' with the appropriate disk
+       echo 1 > /sys/class/block/sda/device/rescan # Replace 'sda' with the appropriate disk
        ```
    2. **Resize the partition**:
        1. Launch `cfdisk`:

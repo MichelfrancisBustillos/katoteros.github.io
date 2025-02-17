@@ -6,7 +6,7 @@ tags: [Onboarding, VM, Bare Metal, Setup, Ansible]
 
 ## Onboarding a New System
 
-Once the system boots, gain console access (via ProxMox Console, SSH, or phyiscal interface), then run the following commands:
+Once the system boots, gain console access (via Proxmox Console, SSH, or physical interface), then run the following commands:
 
 ```bash
 sudo apt update
@@ -32,6 +32,6 @@ The Ansible playbook will:
 - Configure Environment:
   - Replace .bashrc and .bash_aliases
   - Enable Pushover notifications via email (postfix)
-  - Enable unatteneded updates
+  - Enable unattended updates
   - Setup default user accounts
   - Setup regular checks for Ansible playbooks updates
