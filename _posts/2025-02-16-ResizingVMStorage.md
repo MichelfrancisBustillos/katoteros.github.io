@@ -70,3 +70,47 @@ tags: [proxmox, vm, storage]
            ```bash
            df -h
            ```
+
+## Reduceing VM Storage
+
+From the host console, logged in as root:
+
+1. **Shut down the VM**
+
+    ```bash
+    pct stop <vmid>
+    ```
+
+2. **Find the storage path**
+
+   ```bash
+   lvdisplay | grep <vmid>
+   ```
+   Path follows "LV Path"
+
+3. **Resize the file system**
+
+    ```bash
+    resize2fs /dev/pve/vm-<vmid>-disk-0 <new_size>
+    ```
+    New size can be specified in GB (e.g., `10G`) or MB (e.g., `10240M`).
+4. **Resize the logical volume**
+
+    ```bash
+    lvreduce -L <new_size> /dev/pve/vm-<vmid>-disk-0
+    ```
+5. **Edit Container Configuration**
+
+   Edit the container configuration file located at `/etc/pve/lxc/<vmid>.conf` and adjust the `rootfs` line to reflect the new size.
+6. **Start the VM**
+
+    ```bash
+    pct start <vmid>
+    ```
+7. **Verify the changes**
+
+   Check the disk size from within the VM:
+
+   ```bash
+   df -h
+   ```
