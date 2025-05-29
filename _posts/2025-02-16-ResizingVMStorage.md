@@ -1,10 +1,8 @@
 ---
-title: Expanding VM Storage
+title: Resizing VM Storage in Proxmox
 categories: [Guides]
 tags: [proxmox, vm, storage]
 ---
-
-# Resizing VM Storage in Proxmox
 
 ## Expanding VM Storage
 

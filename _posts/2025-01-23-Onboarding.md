@@ -16,6 +16,7 @@ Onboarding a new VM, LXC Container, or bare metal server using Ansible Pull.
     ansible-pull -U https://github.com/MichelfrancisBustillos/ansible_pull.git --vault-password-file .vault_pass.txt
     ```
 2. Log in as the default user `michel`:
+   
     **Note:** If working with an LXC Container, run the AppArmor Error fix first
     ```bash
     scp michel@<VMHost>:/home/michel/.vault_pass.txt /home/michel/.vault_pass.txt
