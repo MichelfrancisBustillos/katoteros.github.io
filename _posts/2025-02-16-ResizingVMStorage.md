@@ -4,6 +4,8 @@ categories: [Guides]
 tags: [proxmox, vm, storage]
 ---
 
+# Resizing VM Storage in Proxmox
+
 ## Expanding VM Storage
 
 1. ### From within Proxmox
@@ -71,7 +73,7 @@ tags: [proxmox, vm, storage]
            df -h
            ```
 
-## Reduceing VM Storage
+## Reducing VM Storage
 
 From the host console, logged in as root:
 
