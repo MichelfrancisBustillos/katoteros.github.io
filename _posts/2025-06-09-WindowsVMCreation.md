@@ -65,3 +65,7 @@ tags: [onboarding, vm, windows]
     2. Install remaining VirtIO drivers:
        1. Run `virtio-win-gt-x64.msi` from the VirtIO drivers ISO.
     3. Configure Windows settings as needed (e.g., network, updates).
+    4. Remove `Shutdown` from the Start menu.
+       1. Open `Registry Editor` (regedit).
+       2. Navigate to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Start\HideShutDown`.
+       3. Set `value` to `1` to hide the Shutdown option.
