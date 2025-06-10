@@ -20,7 +20,7 @@ tags: [windows, resize]
       1. Open `cmd` as Administrator.
       2. Run the command:
 
-            ```cmd
+            ```batch
             reagentc /disable
             diskpart
             list disk
@@ -47,7 +47,7 @@ tags: [windows, resize]
       4. Open `cmd` as Administrator.
       5. Run the command:
 
-         ```cmd
+         ```batch
          diskpart
          select disk <Boot_Disk_Number>
          list partition
